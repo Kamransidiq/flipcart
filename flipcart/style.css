@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    border: border box;
+    font-family: arial;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+
+}
+.logo{
+    background-image: url("logo.svg");
+    background-size: cover;
+    height: 50px;
+    width: 160px;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid transparent;
+    background-color:#e4eef0;
+    border-radius: 5px;
+}
+.inputstyle{
+    height: 40px;
+    width: 600px;
+    border: none;
+    font-size: 17px;
+    background-color:#e4eef0;
+}
+.nav-icon{
+    padding: 8px 8px 8px 8px;
+    width: 25px;
+    height: 25px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-cart{
+    width: 104px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.nav-icon i{
+    width: 24px;
+    height: 25px;
+    font-size: 20px;
+    
+}
+.nav-icon p{
+    font-size: 16px;
+    color: #000000;
+    width: 32px;
+    height: 24px;
+    padding-left: 10px;
+
+}
+.nav-seller{
+    width: 180px;
+    height: 25px;
+    margin-left: 80px;
+}
+.nav-icons i{
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+}
+.nav-icons{
+    font-size: 1rem;
+}
+.nav-menuicon{
+    margin-right: 50px;
+}
+.multiple-items{
+height: 120px;
+width: 140px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image{
+    background-image: url("grocery.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+    padding: 16px 16px 16px 16px;
+}
+.multiple-items p{
+    margin-top: 80px;
+    color: #333333;
+    width: 50px;
+    height: 15px;
+
+}
+.multiple-items{
+    display: flex;
+    justify-content: center;
+}
